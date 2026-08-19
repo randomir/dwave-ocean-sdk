@@ -190,8 +190,8 @@ you can discern that the state with the apple on the table has a higher energy
 than that when the apple is on the floor.
 
 For a quantum system, a Hamiltonian is a function that maps certain states,
-called *eigenstates*, to energies. Only when the system is in an eigenstate of
-the Hamiltonian is its energy well defined and called the *eigenenergy*. When
+called *eigenstates*, to energies. The energy is well defined and called the
+*eigenenergy* only when the system is in an eigenstate of the Hamiltonian. When
 the system is in any other state, its energy is uncertain. The collection of
 eigenstates with defined eigenenergies make up the *eigenspectrum*.
 
@@ -311,8 +311,9 @@ the system.
 
     Annealing functions :math:`A(s)`, :math:`B(s)`. Annealing begins at
     :math:`s=0` with :math:`A(s) \gg B(s)` and ends at :math:`s=1` with
-    :math:`A(s) \ll B(s)`. Data shown are representative of |dwave_short|
-    2X systems.
+    :math:`A(s) \ll B(s)`. :term:`QCP` is the point where :math:`A(s)` and
+    :math:`B(s)` are of equal amplitude. Data shown are representative of
+    |dwave_short| 2X systems.
 
 
 Annealing Controls
