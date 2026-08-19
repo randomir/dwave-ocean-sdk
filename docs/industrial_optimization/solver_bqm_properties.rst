@@ -148,7 +148,7 @@ Example
 ...
 >>> sampler = LeapHybridBQMSampler()                # doctest: +SKIP
 >>> sampler.properties["quota_conversion_rate"]     # doctest: +SKIP
-20
+1
 
 
 .. _property_bqm_supported_problem_types:

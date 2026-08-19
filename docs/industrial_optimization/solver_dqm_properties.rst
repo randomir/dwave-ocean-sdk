@@ -171,7 +171,7 @@ Example
 ...
 >>> sampler = LeapHybridDQMSampler()                # doctest: +SKIP
 >>> sampler.properties["quota_conversion_rate"]     # doctest: +SKIP
-20
+1
 
 
 .. _property_dqm_supported_problem_types:
