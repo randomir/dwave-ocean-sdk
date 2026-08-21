@@ -273,7 +273,7 @@ Example
 ...
 >>> sampler = LeapHybridCQMSampler()                # doctest: +SKIP
 >>> sampler.properties["quota_conversion_rate"]     # doctest: +SKIP
-20
+1
 
 
 .. _property_cqm_supported_problem_types:

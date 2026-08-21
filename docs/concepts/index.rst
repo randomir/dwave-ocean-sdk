@@ -505,6 +505,16 @@ Concepts and Terminology
         that uses Python as the host language to write instructions for a
         gate-model :term:`QPU`.
 
+    QCP
+        Quantum critical point. The point in the anneal where :math:`A(s)`, the
+        transverse or tunneling energy, and :math:`B(s)`, the energy applied to
+        the problem Hamiltonian, are of equal amplitudes.
+
+        Learn more:
+
+        *   :numref:`Figure %s <annealing-functions>` in the
+            :ref:`qpu_qa_implementation` section
+
     QMI
         Quantum machine instruction.
 
